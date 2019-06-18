@@ -21,6 +21,51 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: underline;
+}
+
+/* Lord Vader's Former Handle, "Anakin" */
+.App-link:link {
+  color: inherit;
+}
+
+.App-link:visited {
+  color: inherit;
+}
+
+.App-link:focus {
+  color: white;
+}
+
+.App-link:hover {
+  color: white;
+}
+
+.App-link:active {
+  color: red;
+}
+
+.App-button {
+  display: block;
+  background-color: #61dafb;
+  color: #282c34;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.App-button:hover {
+  background-color: white;
+}
+
+.App-button:active {
+  background-color: red;
+  color: white;
+}
+
+.App-button-container {
+  min-width: 200px;
+  text-align: center;
+  margin: 2px 0;
 }
 
 @keyframes App-logo-spin {
